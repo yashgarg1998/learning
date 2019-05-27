@@ -1,0 +1,86 @@
+Last login: Mon May 27 20:54:56 on ttys011
+Yashs-MacBook-Pro:~ yagarg$ ls
+Applications		Library			git
+BasicCore		Movies			git_id
+Desktop			Music			git_id.pub
+Documents		Pictures		try
+Downloads		Public
+Fruit-Images-Dataset	Work
+Yashs-MacBook-Pro:~ yagarg$ pwd
+/Users/yagarg
+Yashs-MacBook-Pro:~ yagarg$ cd Desktop
+Yashs-MacBook-Pro:Desktop yagarg$ git init
+Initialized empty Git repository in /Users/yagarg/Desktop/.git/
+Yashs-MacBook-Pro:Desktop yagarg$ cd gitLearning
+Yashs-MacBook-Pro:gitLearning yagarg$ git init
+Reinitialized existing Git repository in /Users/yagarg/Desktop/gitLearning/.git/
+Yashs-MacBook-Pro:gitLearning yagarg$ git add .
+Yashs-MacBook-Pro:gitLearning yagarg$ git commit -m "first commit"
+[master (root-commit) 54908a6] first commit
+ Committer: Yash Garg <yagarg@Yashs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md.save
+Yashs-MacBook-Pro:gitLearning yagarg$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Yashs-MacBook-Pro:gitLearning yagarg$ git remote add origin https://github.com/yashgarg1998/learning.git
+Yashs-MacBook-Pro:gitLearning yagarg$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 249 bytes | 249.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/yashgarg1998/learning.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Yashs-MacBook-Pro:gitLearning yagarg$ 
+Yashs-MacBook-Pro:gitLearning yagarg$ 
+Yashs-MacBook-Pro:gitLearning yagarg$ 
+Yashs-MacBook-Pro:gitLearning yagarg$ 
+Yashs-MacBook-Pro:gitLearning yagarg$ 
+Yashs-MacBook-Pro:gitLearning yagarg$ git remote add origin https://github.com/yashgarg1998/demo.git
+fatal: remote origin already exists.
+Yashs-MacBook-Pro:gitLearning yagarg$ git branch try
+Yashs-MacBook-Pro:gitLearning yagarg$ git checkout
+Your branch is up to date with 'origin/master'.
+Yashs-MacBook-Pro:gitLearning yagarg$ git checkout try
+Switched to branch 'try'
+Yashs-MacBook-Pro:gitLearning yagarg$ nano file
+
+  GNU nano 2.0.6                File: file                            Modified  
+
+hi this is first file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
